@@ -20,12 +20,16 @@
 }
 
 .profile img {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 3px;
   border: 3px solid var(--gray-3);
-  outline: 1px solid var(--green-7);
-  margin-bottom: 1.5rem;
+  outline: 1px solid var(--green-4);
+  margin-bottom: 1rem;
+}
+
+.profile span {
+  color: var(--gray-5);
 }
 
 .sidebar footer {
@@ -46,8 +50,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--green-7);
-  color: var(--green-7);
+  border: 1px solid var(--green-4);
+  color: var(--green-4);
   gap: 0.7rem;
 
   transition: color 0.2s, background-color 0.2s;
